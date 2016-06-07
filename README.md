@@ -2,7 +2,7 @@
 
 ## What
 
-Download the Ethernet MAC address database (which is a file) from the IEEE server that publishes it, compare it with an existing nmap(1) MAC address database (which is a file) and generate a new MAC address database for nmap containing any missing entries.
+Download the Ethernet MAC address database (which is a file) from the IEEE server that publishes it, compare it with an existing `nmap` MAC address database (which is a file) and generate a new `nmap` MAC address database containing any entries missing in the existing one.
 
 This is a modified version of a script by [Alain Kelder's](http://giantdorks.org/alain/), which can be found [here](http://giantdorks.org/alain/script-to-update-nmap-mac-prefixes-with-latest-entries-from-the-ieee-oui-database/).
 
