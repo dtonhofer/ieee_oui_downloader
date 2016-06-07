@@ -9,10 +9,10 @@ This is a modified version of a script by [Alain Kelder's](http://giantdorks.org
 ## How
 
 1. Start script with no arguments
-2. Script will create a working directory in /tmp, cd to it, download the IEEE file, copy the local nmap file, compare these, generate a more complete file, then exit.
-3. You have to copy the generated complete file to the correct nmap location.
-4. If anything goes wrong after the download, you can restart the script while passing it the path to the working directory created earlier. It will then use the already downloaded file and not attempt to download again.
-5. Cleanup of the working directory is left to you.
+2. Script will create a working directory underneath `/tmp`, `cd` to it, download the IEEE file using `curl`, copy the local nmap file to the working directory, compare the IEEE file to the original nmap file, generate a new complete file for nmap with any missing entries found in the IEEE file added, then exit.
+3. You have to copy the generated completed file to the correct nmap location manually.
+4. If anything goes wrong after the download, you can restart the script while passing it the path to the working directory created in the previous run. It will then use the already downloaded IEEE file and not attempt to download it again.
+5. Cleanup of the working directory is left to you and your command line skills.
 
 ## License
 
