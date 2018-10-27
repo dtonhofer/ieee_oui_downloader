@@ -8,8 +8,8 @@
 #
 # http://giantdorks.org/alain/script-to-update-nmap-mac-prefixes-with-latest-entries-from-the-ieee-oui-database/
 #
-# (License of original script is uncertain ....
-#  So the License of this script is uncertain.)
+# The original script is licensed under Creative Commons Attribution
+# 3.0 United States License, and thus so is the present modified script.
 #
 # The script creates a temporary directory under /tmp and 
 # downloads the IEEE OUI file into it. If there is a problem
