@@ -1,5 +1,10 @@
 # ieee_oui_downloader
 
+## Status
+
+- Old but serviceable!
+- 2018-10-27: The script passes [ShellCheck](https://www.shellcheck.net/)
+
 ## What
 
 Download the Ethernet MAC address database (which is a file) from the IEEE server that publishes it, compare it with an existing `nmap` MAC address database (which is a file) and generate a new `nmap` MAC address database containing any entries missing in the existing one.
